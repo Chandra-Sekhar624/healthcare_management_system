@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix Schedule Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: Consolas, Monaco, 'Andale Mono', monospace;
+        }
+        .step {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #f1f9ff;
+            border-left: 4px solid #3498db;
+        }
+        .note {
+            background-color: #fff8e1;
+            padding: 10px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>How to Fix the Confirm and Decline Buttons in schedule.php</h1>
+    
+    <div class="note">
+        <strong>Note:</strong> I've created two files to help fix the Confirm and Decline buttons in the schedule.php file:
+        <ul>
+            <li><code>js/appointment-actions.js</code> - Contains the JavaScript functions for the buttons</li>
+            <li><code>doctor/appointment-buttons.php</code> - Contains a PHP function to generate the HTML for the buttons</li>
+        </ul>
+    </div>
+    
+    <div class="step">
+        <h2>Step 1: Include the JavaScript File</h2>
+        <p>Add the following line to the schedule.php file just before the closing <code>&lt;/body&gt;</code> tag:</p>
+        <pre><code>&lt;script src="../js/appointment-actions.js"&gt;&lt;/script&gt;</code></pre>
+    </div>
+    
+    <div class="step">
+        <h2>Step 2: Include the PHP File</h2>
+        <p>Add the following line to the schedule.php file at the top, after the other PHP includes:</p>
+        <pre><code>// Include the appointment buttons file
+include 'appointment-buttons.php';</code></pre>
+    </div>
+    
+    <div class="step">
+        <h2>Step 3: Replace the Appointment Actions Div</h2>
+        <p>Find the appointment actions div in the schedule.php file and replace it with the following:</p>
+        <pre><code>&lt;?php echo generateAppointmentButtons($appointment); ?&gt;</code></pre>
+        <p>This should replace the entire div with class "appointment-actions" and all its contents.</p>
+    </div>
+    
+    <div class="note">
+        <strong>Important:</strong> If you're having trouble finding the right place to make these changes, you can search for "appointment-actions" in the schedule.php file.
+    </div>
+    
+    <div class="step">
+        <h2>Step 4: Test the Buttons</h2>
+        <p>After making these changes, reload the schedule.php page and test the Confirm and Decline buttons. They should now work properly!</p>
+    </div>
+</body>
+</html>

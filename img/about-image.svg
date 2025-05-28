@@ -1,0 +1,55 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f2f7fd"/>
+  
+  <!-- Hospital Building -->
+  <rect x="150" y="150" width="300" height="200" fill="#AFD3FF"/>
+  <rect x="250" y="250" width="100" height="100" fill="#f2f7fd"/>
+  <rect x="275" y="300" width="50" height="50" fill="#1a73e8"/>
+  
+  <!-- Windows -->
+  <rect x="180" y="180" width="40" height="40" fill="#D1E7FF"/>
+  <rect x="250" y="180" width="40" height="40" fill="#D1E7FF"/>
+  <rect x="320" y="180" width="40" height="40" fill="#D1E7FF"/>
+  <rect x="390" y="180" width="40" height="40" fill="#D1E7FF"/>
+  
+  <!-- Roof -->
+  <polygon points="150,150 300,80 450,150" fill="#1a73e8"/>
+  
+  <!-- Medical Cross on Roof -->
+  <rect x="290" y="100" width="20" height="40" fill="#f2f7fd"/>
+  <rect x="280" y="110" width="40" height="20" fill="#f2f7fd"/>
+  
+  <!-- Path to Building -->
+  <rect x="275" y="350" width="50" height="50" fill="#D1E7FF"/>
+  
+  <!-- Ambulance -->
+  <rect x="100" y="320" width="80" height="40" fill="#1a73e8"/>
+  <rect x="140" y="300" width="40" height="20" fill="#1a73e8"/>
+  <circle cx="115" cy="360" r="10" fill="#444"/>
+  <circle cx="165" cy="360" r="10" fill="#444"/>
+  <rect x="110" y="330" width="20" height="15" fill="#D1E7FF"/>
+  <rect x="140" y="330" width="20" height="15" fill="#D1E7FF"/>
+  <rect x="100" y="345" width="10" height="5" fill="#FFD700"/>
+  
+  <!-- Trees -->
+  <rect x="50" y="330" width="10" height="70" fill="#8B4513"/>
+  <circle cx="55" cy="300" r="30" fill="#228B22"/>
+  
+  <rect x="500" y="330" width="10" height="70" fill="#8B4513"/>
+  <circle cx="505" cy="300" r="30" fill="#228B22"/>
+  
+  <!-- Sun -->
+  <circle cx="500" cy="80" r="30" fill="#FFD700"/>
+  <line x1="500" y1="30" x2="500" y2="10" stroke="#FFD700" stroke-width="3"/>
+  <line x1="500" y1="150" x2="500" y2="130" stroke="#FFD700" stroke-width="3"/>
+  <line x1="450" y1="80" x2="430" y2="80" stroke="#FFD700" stroke-width="3"/>
+  <line x1="570" y1="80" x2="550" y2="80" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Clouds -->
+  <circle cx="100" cy="80" r="20" fill="white"/>
+  <circle cx="130" cy="80" r="25" fill="white"/>
+  <circle cx="160" cy="80" r="20" fill="white"/>
+  
+  <!-- Text -->
+  <text x="300" y="50" font-family="Arial" font-size="24" fill="#1a73e8" text-anchor="middle">About HealthConnect</text>
+</svg> 
