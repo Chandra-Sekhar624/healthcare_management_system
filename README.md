@@ -46,9 +46,9 @@ HealthConnect is a state-of-the-art online health system platform designed to co
 
 ## Demo Accounts
 
-- **Admin**: admin@example.com / password............misrosoft eags
-- **Doctor**: doctor@example.com / password..........fairfox
-- **Patient**: patient@example.com / password........chrom
+- **Admin**: admin@example.com / password
+- **Doctor**: doctor@example.com / password
+- **Patient**: patient@example.com / password
 
 ## Project Structure
 
@@ -100,9 +100,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For support or inquiries, please contact:
-- Email: support@healthconnect.com
-- Website: www.healthconnect.com
+- Email: chandrasekharbera95@gmail.com
+
 
 ---
 
-Designed and developed with ❤️ for better healthcare. 
+Designed and developed ❤️ by chandrasekhar Bera. 
