@@ -88,9 +88,9 @@ Welcome to HealthConnect - Your Advanced Digital Healthcare Solution! This platf
 
 ## Demo Accounts
 
-- **Admin**: admin@example.com / password............misrosoft eags
-- **Doctor**: doctor@example.com / password..........fairfox
-- **Patient**: patient@example.com / password........chrom
+- **Admin**: admin@example.com / password
+- **Doctor**: doctor@example.com / password
+- **Patient**: patient@example.com / password
 
 ## Project Structure
 
